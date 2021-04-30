@@ -6,11 +6,13 @@
 
   @include respond (md) {
     max-width: 720px;
+    padding-left: 40px!important;
+    padding-right: 40px!important;
   }
   @include respond (lg) {
     max-width: 960px;
-    padding-left: 14px!important;
-    padding-right: 14px!important;
+    padding-left: 80px!important;
+    padding-right: 80px!important;
   }
   @include respond (xl) {
     max-width: 1140px;
