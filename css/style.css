@@ -1,3 +1,12 @@
+/*
+
+576px: sm
+768px: md
+992px: lg
+1200px: xl
+1400px: > xxl 
+
+*/
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -15,8 +24,30 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', 'Arial' sans-serif;
-}
+  background: #000; }
 
 img {
   max-width: 100%;
   height: auto; }
+
+.Container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px; }
+  @media only screen and (min-width: 576px) {
+    .Container {
+      max-width: 540px; } }
+  @media only screen and (min-width: 768px) {
+    .Container {
+      max-width: 720px; } }
+  @media only screen and (min-width: 992px) {
+    .Container {
+      max-width: 960px; } }
+  @media only screen and (min-width: 1200px) {
+    .Container {
+      max-width: 1140px; } }
+  @media only screen and (min-width: 1400px) {
+    .Container {
+      max-width: 1320px; } }
