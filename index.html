@@ -7,9 +7,59 @@
   <title>Personal Portfolio Page</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">  
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/96a37054ee.js" crossorigin="anonymous"></script>  
+</head> 
 <body>
+
+  <header class="Header">
+    <div class="Header__logo">StephenOwen.</div>
+    <nav class="Header__nav" id="navbar">
+      <a href="#projects" class="Header__nav-link">Projects</a>
+      <a href="#" class="Header__nav-link"><i class="fab fa-github"></i></a>
+    </nav>
+  </header>
+
+  <section class="Section Hero" id="welcome-section">
+    <div class="Hero__text-content">
+      <span class="Hero__tagline">Web Developer</span>
+      <h1 class="Hero__Heading">Stephen Owen</h1>
+      <span class="Hero__subtitle"></span>
+      <a href="#projects" class="Button">View Projects</a>
+    </div>
+
+    <div class="Hero__image-content">
+      <img src="Images/undraw_coding_6mjf.svg"Web developer coding on laptop" class="Hero__image">
+    </div>
+  </section>
+
+  <section class="Section Projects" id="projects">
+    <div class="Projects__text-content">
+      <span class="Projects__tagline">Recent Works</span>
+      <h2 class="Projects__heading">Projects</h2>
+    </div>
+
+    <div class="Projects__grid">
+      <div class="project-tile Projects__project Projects__project--1" ></div>
+      <div class="project-tile Projects__project Projects__project--2"></div>
+      <div class="project-tile Projects__project Projects__project--3"></div>
+      <div class="project-tile Projects__project Projects__project--4"></div>
+    </div>
+
+    <a href="" class="Button">See all projects</a>
+  </section>
+
+  <footer class="Footer">
+    <footer class="Footer Container">
+
+      <a href="https://github.com/StephenOwen07" class="Footer__svg-link" target="_blank"><i class="fab fa-github"></i></a>
+
+      <span class="Footer__copywright">© 2021 All rights reserved. – Designed & Coded by <a href="https://github.com/StephenOwen07" class="Footer__copywright-link">Stephen Owen</a></span>
+       
+    </footer>
+  </footer>
   
+
+
 </body>
 </html>
