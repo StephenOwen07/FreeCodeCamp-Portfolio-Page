@@ -1,7 +1,38 @@
 .Hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
 
+  &__tagline {
+    color: $color-primary-grey;
+    font-size: 1.4rem;
+  }
+
+  &__heading {
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  &__subtitle {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    color: #000;
+  }
+
+  &__text-content {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  &__image-content {
+    display: flex;
+    justify-content: center;
+  }
+
   &__image {
-    width: 50%;
+    width: 80%;
   }
 }

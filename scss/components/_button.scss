@@ -1,0 +1,13 @@
+.Button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 50px;
+  background-color: $color-primary-blue;
+  color:  #fff;
+  text-decoration: none;
+  transition: ease-in-out 0.2s;
+
+  &:hover {
+    background-color: $color-dark-blue;
+  }
+}
