@@ -36,6 +36,7 @@ img {
   border-radius: 50px;
   background-color: #3340FF;
   color: #fff;
+  font-size: 1.4rem;
   text-decoration: none;
   -webkit-transition: ease-in-out 0.2s;
   -o-transition: ease-in-out 0.2s;
@@ -46,6 +47,7 @@ img {
 .Container {
   max-width: 100%;
   margin-left: auto;
+  margin-right: auto;
   padding-left: 14px !important;
   padding-right: 14px !important; }
   @media only screen and (min-width: 768px) {
@@ -128,21 +130,54 @@ img {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 100vh; }
+  height: 100vh;
+  margin-top: 60px; }
+  @media only screen and (min-width: 992px) {
+    .Hero {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  .Hero__text-content {
+    margin-bottom: 48px;
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .Hero__text-content {
+        width: 50%;
+        text-align: left; } }
   .Hero__tagline {
+    display: inline-block;
     color: #6F6E6E;
     font-size: 1.4rem; }
+    @media only screen and (min-width: 992px) {
+      .Hero__tagline {
+        margin-bottom: 12px;
+        font-size: 1.6rem; } }
   .Hero__heading {
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: 800; }
+    @media only screen and (min-width: 576px) {
+      .Hero__heading {
+        margin-bottom: 12px;
+        font-size: 4.8rem; } }
+    @media only screen and (min-width: 768px) {
+      .Hero__heading {
+        font-size: 6.4rem; } }
+    @media only screen and (min-width: 992px) {
+      .Hero__heading {
+        margin-bottom: 24px;
+        line-height: 1; } }
   .Hero__subtitle {
     display: block;
     margin-bottom: 24px;
     font-size: 1.6rem;
     color: #000; }
-  .Hero__text-content {
-    margin-bottom: 32px;
-    text-align: center; }
+    @media only screen and (min-width: 768px) {
+      .Hero__subtitle {
+        font-size: 1.8rem; } }
+    @media only screen and (min-width: 992px) {
+      .Hero__subtitle {
+        margin-bottom: 48px; } }
   .Hero__image-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -150,8 +185,15 @@ img {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
+    @media only screen and (min-width: 992px) {
+      .Hero__image-content {
+        width: 50%;
+        padding-left: 14px; } }
   .Hero__image {
-    width: 80%; }
+    width: 60%; }
+    @media only screen and (min-width: 992px) {
+      .Hero__image {
+        width: 100%; } }
 
 .Section {
   padding: 30px 0; }
