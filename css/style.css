@@ -263,16 +263,53 @@ img {
   .Projects__project--1 {
     background-image: url("../Images/Project-Hazel-Product-Landing-Page.png");
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-position: 10% 50%; }
   .Projects__project--2 {
     background-image: url("../Images/JavaScript-Technical-Documentation-Page.png");
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-position: 10% 50%; }
   .Projects__project--3 {
     background-image: url("../Images/Elon-Musk-Tribute-page.png");
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-position: 10% 50%; }
   .Projects__project--4 {
     background-image: url("../Images/Survey-Form.png");
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 96px; }
+  .Footer__icon-link {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #001C42;
+    font-size: 3.2rem;
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .Footer__icon-link:hover {
+      color: #3340FF; }
+  .Footer__copyright {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 1.2rem;
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .Footer__copyright {
+        font-size: 1.4rem; } }
+  .Footer__copyright-link {
+    color: #3340FF; }

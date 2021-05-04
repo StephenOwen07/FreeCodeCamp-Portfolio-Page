@@ -1,0 +1,34 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 96px;
+
+  &__icon-link {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: $color-dark-blue;
+    font-size: 3.2rem;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      color: $color-primary-blue;
+    }
+
+  }
+
+  &__copyright {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 1.2rem;
+    text-align: center;
+
+    @include respond (lg) {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__copyright-link {
+    color: $color-primary-blue;
+  }
+}

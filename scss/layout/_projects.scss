@@ -47,23 +47,27 @@
     background-image: url("../Images/Project-Hazel-Product-Landing-Page.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 10% 50%;
   }
 
   &__project--2 {
     background-image: url("../Images/JavaScript-Technical-Documentation-Page.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 10% 50%;
   }
   
   &__project--3 {
     background-image: url("../Images/Elon-Musk-Tribute-page.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 10% 50%;
   }
 
   &__project--4{
     background-image: url("../Images/Survey-Form.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
 }
