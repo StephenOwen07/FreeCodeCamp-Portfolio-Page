@@ -1,8 +1,8 @@
-# FreeCodeCamp - Build a Product Landing Page
+# FreeCodeCamp - Build a Portfolio Page
 ## Objective:
-Build a CodePen.io app that is functionally similar to this: [FCC Product Landing Page](https://codepen.io/freeCodeCamp/full/zNBOYG).
+Build a CodePen.io app that is functionally similar to this: [FCC Portfolio Page](https://codepen.io/freeCodeCamp/full/zNBOYG).
 
-* [See Product Landing Page](https://stephenowen07.github.io/FreeCodeCamp-Porfolio-Page)
+* [See Portfolio Page](https://stephenowen07.github.io/FreeCodeCamp-Porfolio-Page)
 
 
 ## Rules:
