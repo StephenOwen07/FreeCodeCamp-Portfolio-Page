@@ -44,8 +44,31 @@ img {
   .Button:hover {
     background-color: #001C42; }
 
-.Tile {
-  background-color: aqua; }
+.Tile__overlay {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 28, 66, 0.7);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s; }
+
+.Tile:hover .Tile__overlay {
+  opacity: 1; }
+
+.Tile__title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 3rem;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
 
 .Container {
   max-width: 100%;
@@ -202,58 +225,54 @@ img {
 .Section {
   padding: 30px 0; }
 
-.Projects__text-content {
-  margin-bottom: 64px;
+.Projects {
   text-align: center; }
-
-.Projects__tagline {
-  color: #6F6E6E;
-  font-size: 1.4rem; }
-  @media only screen and (min-width: 992px) {
-    .Projects__tagline {
-      font-size: 1.6rem; } }
-
-.Projects__heading {
-  font-size: 3rem;
-  color: #252525; }
-  @media only screen and (min-width: 576px) {
-    .Projects__heading {
-      font-size: 3.6rem; } }
-  @media only screen and (min-width: 768px) {
-    .Projects__heading {
-      font-size: 4.8rem; } }
-
-.Projects__grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  grid-auto-rows: minmax(300px, auto);
-  grid-gap: 5px; }
-  @media only screen and (min-width: 992px) {
-    .Projects__grid {
-      -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr; } }
-  @media only screen and (min-width: 1200px) {
-    .Projects__grid {
-      grid-auto-rows: minmax(350px, auto); } }
-
-.Projects__project--1 {
-  background-image: url("../Images/Project-Hazel-Product-Landing-Page.png");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.Projects__project--2 {
-  background-image: url("../Images/JavaScript-Technical-Documentation-Page.png");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.Projects__project--3 {
-  background-image: url("../Images/Elon-Musk-Tribute-page.png");
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.Projects__project--4 {
-  background-image: url("../Images/Survey-Form.png");
-  background-size: cover;
-  background-repeat: no-repeat; }
+  .Projects__text-content {
+    margin-bottom: 64px;
+    text-align: center; }
+  .Projects__tagline {
+    color: #6F6E6E;
+    font-size: 1.4rem; }
+    @media only screen and (min-width: 992px) {
+      .Projects__tagline {
+        font-size: 1.6rem; } }
+  .Projects__heading {
+    font-size: 3rem;
+    color: #252525; }
+    @media only screen and (min-width: 576px) {
+      .Projects__heading {
+        font-size: 3.6rem; } }
+    @media only screen and (min-width: 768px) {
+      .Projects__heading {
+        font-size: 4.8rem; } }
+  .Projects__grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: 5px;
+    margin-bottom: 96px; }
+    @media only screen and (min-width: 992px) {
+      .Projects__grid {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr; } }
+    @media only screen and (min-width: 1200px) {
+      .Projects__grid {
+        grid-auto-rows: minmax(350px, auto); } }
+  .Projects__project--1 {
+    background-image: url("../Images/Project-Hazel-Product-Landing-Page.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .Projects__project--2 {
+    background-image: url("../Images/JavaScript-Technical-Documentation-Page.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .Projects__project--3 {
+    background-image: url("../Images/Elon-Musk-Tribute-page.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .Projects__project--4 {
+    background-image: url("../Images/Survey-Form.png");
+    background-size: cover;
+    background-repeat: no-repeat; }

@@ -1,4 +1,5 @@
 .Projects {
+  text-align: center;
 
   &__text-content {
     margin-bottom: 64px;
@@ -32,6 +33,7 @@
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(300px, auto);
     grid-gap: 5px;
+    margin-bottom: 96px;
 
     @include respond(lg) {
       grid-template-columns: 1fr 1fr;
