@@ -2,7 +2,7 @@
 ## Objective:
 Build a CodePen.io app that is functionally similar to this: [FCC Portfolio Page](https://codepen.io/freeCodeCamp/full/zNBOYG).
 
-* [See Portfolio Page](https://stephenowen07.github.io/FreeCodeCamp-Porfolio-Page)
+* [See Portfolio Page](https://stephenowen07.github.io/FreeCodeCamp-Portfolio-Page)
 
 
 ## Rules:
